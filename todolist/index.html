@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="div1">  
+        <h1>Lista de Tarefas - Programação FrontEnd</h1>   
+    </div><br>
+    <div id="div_area_nova_tarefa">
+        <label for="input_nova_tarefa">To do List</label>       
+        <input type="text" id="input_nova_tarefa">
+        <button onclick="adicionaTarefaNaLista()">+</button>
+    <button onclick="ocultarTarefasConcluidas()">Ocultar</button>
+    <button onclick="reexibirTodasTarefas()">Reexibir</button>
+    </div>
+    <div id="container">
+        <ul id="lista_de_tarefas">
+       </ul>
+    </div>
+    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

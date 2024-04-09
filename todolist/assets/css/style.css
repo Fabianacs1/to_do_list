@@ -1,0 +1,60 @@
+body {
+    background-color: #4e704b91;
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+button{
+        background-color: #0224013a; 
+        border: none; 
+        color: rgb(0, 0, 0); 
+        padding: 5px 10px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 18px; 
+        margin: 1px 1px; 
+        cursor: pointer; 
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    #container {
+        text-align: center;
+    }
+    
+    #lista_de_tarefas {
+        padding: 0; 
+        list-style-type: none; 
+    }
+    
+    #lista_de_tarefas li {
+        display: block; 
+        margin-bottom: 10px; 
+        border-bottom: 1px solid #000000; 
+        padding: 5px 0; 
+    }
+    .div1{
+    background-color: #0224013a; 
+    color: rgb(0, 0, 0); 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    margin: 1px 1px; 
+    cursor: pointer; 
+    border-radius: 8px;
+}    
+input {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 150px;
+    box-shadow: 5 5 5px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-family: FreeMono, monospace
+}
+button {
+    font-family: FreeMono, monospace
+}
