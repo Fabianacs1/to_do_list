@@ -1,12 +1,12 @@
 body {
-    background-color: #4e704b91;
+    background-color: #ffffff91;
     margin: 2%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-size: 25px;
     text-align: center;
 }
 button{
-        background-color: #0224013a; 
+        background-color: #0010f33a; 
         border: none; 
         color: rgb(0, 0, 0); 
         padding: 5px 10px; 
@@ -20,7 +20,7 @@ button{
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     }
     #container {
-        text-align: center;
+        text-align: left;
     }
     
     #lista_de_tarefas {
@@ -31,14 +31,15 @@ button{
     #lista_de_tarefas li {
         display: block; 
         margin-bottom: 10px; 
-        border-bottom: 1px solid #000000; 
+        border-bottom: 1px solid rgb(0, 2, 94); 
         padding: 5px 0; 
     }
     .div1{
-    background-color: #0224013a; 
+        font-family: cursive;
+    background-color: #0010f33a; 
     color: rgb(0, 0, 0); 
     padding: 5px 10px; 
-    text-align: center; 
+    text-align: center;
     text-decoration: none; 
     margin: 1px 1px; 
     cursor: pointer; 
@@ -46,7 +47,7 @@ button{
 }    
 input {
     padding: 10px;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     border-radius: 30px;
     font-size: 16px;
     width: 150px;
@@ -57,4 +58,10 @@ label {
 }
 button {
     font-family: FreeMono, monospace
+}
+hr {
+    border: none; /* Remove a borda padrão do hr */
+    border-bottom: 1px solid rgb(59, 61, 153); /* Adiciona uma linha preta embaixo do hr */
+    margin: 10px 0; /* Adiciona espaço acima e abaixo do hr */
+    background-color:rgb(59, 61, 153);
 }
